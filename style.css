@@ -1,0 +1,505 @@
+/* Header Section Starts Here */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 100px;
+}
+
+.header img{
+    height: 60px;
+}
+
+.header .navigationLink{
+    display: flex;
+}
+
+
+.header select{
+    border: none;
+    margin-left: 15px;
+    font-size: 17px;
+    margin-left: 25px;
+    color: rgb(72, 71, 71);
+}
+
+.header select:hover{
+    border: none;
+    margin-left: 15px;
+    font-size: 20px;
+    color: rgb(205, 12, 12);
+}
+
+.header .navigationLink .options{
+    display: flex;
+}
+
+.header .navIcons{
+    margin-left: 370px;
+}
+
+.header .navIcons .fa-brands{
+    color: rgb(132, 132, 132);
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.header .navIcons .fa-solid{
+    color: rgb(132, 132, 132);
+    margin-left: 35px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: rgb(244, 244, 244);
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.header .navIcons .fa-solid:hover{
+    color: black;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.subscribeBtn{
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.subscribeBtn:hover{
+    color: black;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(196, 195, 195);
+}
+
+/* Header Section Ends Here */
+
+
+/* Main Content Section Starts Here */
+
+.mainContent{
+    background-color: rgb(237, 236, 236);
+    display: flex;
+}
+
+.content{
+    margin: 50px 110px;
+}
+
+.mainContent1{
+    width: 1300px;
+    padding: 5px 5px;
+    /* margin: 110px; */
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+}
+
+.mainContent1 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.mainContent1 h3{
+    font-size: 25px;
+}
+
+.mainContent1 p{
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+}
+
+.profileInfo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.lifestyle{
+    color: rgb(176, 38, 146);
+    font-size: 12px;
+    background-color: rgb(237, 237, 237);
+    padding: 4px 7px;
+    font-weight: bold;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    margin: auto 10px;
+    padding-left: 15px;
+}
+
+.info h3{
+    font-weight:900;
+}
+
+.profileInfo{
+    display: flex;
+    align-items: center;
+}
+
+.mainContent2{
+    width: 620px;
+    padding: 5px 5px;
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+}
+
+.mainContent2 img{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.mainContent2 h3{
+    font-size: 20px;
+}
+
+.mainContent2 p{
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+}
+
+.Technology{
+    color: rgb(103, 182, 206);
+    font-size: 12px;
+    background-color: rgb(237, 237, 237);
+    padding: 4px 7px;
+    font-weight: bold;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.travel{
+    color: rgb(44, 155, 102);
+    font-size: 12px;
+    background-color: rgb(237, 237, 237);
+    padding: 4px 7px;
+    font-weight: bold;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.subMain{
+    display: flex;
+    justify-content: space-between;
+}
+/* Main Content Section Ends Here */
+
+
+/* Article Listing Section Starts Here  */
+
+.articleHeading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.articleListing{
+    margin:0px 150px;
+}
+.articleHeading h1{
+    font-size: 35px;
+    padding: 10px;
+}
+
+.articleHeading p{
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+}
+
+.articleListing .articleList{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.articleListing .articleList li{
+    margin-left: 25px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: 0.2px solid rgb(221, 221, 221);
+}
+
+.totalCards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.totalCards .card{
+    width: 380px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.totalCards .card .cardImg{
+    width: 380px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.totalCards .card h4{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.totalCards .card p{
+    font-size: 14px;
+    margin: 10px 0px;
+    color: rgb(129, 129, 129);
+}
+
+.totalCards .visitedInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleListing .browseAllBtn{
+    margin: 30px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.articleListing .browseAllBtn:hover{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+.browseBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Article Listing Section Ends Here  */
+
+
+/* Top Authors Section Starts Here */
+
+.topAuthors{
+    /* margin: 0px 150px; */
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+.authorHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-bottom: 15px;
+}
+
+.authorHeader h4{
+    font-size: 30px;
+}
+
+.authorHeader a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
+
+.authorCard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.authCard{
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 20px;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    padding: 20px;
+    padding-right: 50px;
+    
+}
+
+.authCard .authProfile{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.authCard .autInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-right: 35px;
+}
+
+.authCard .autInfo h3,p{
+    padding: 2px;
+}
+
+.authCard .autInfo h3+p{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.authCard .autInfo p,.publications{
+    color: rgb(129, 129, 129);
+}
+
+.authCard .autInfo h3{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.autInfo .publications{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autInfo .publications i+p{
+    margin-left: 10px;
+}
+
+.card .visitedInfo{
+    display: flex;
+    align-items: center;
+    
+}
+/* Top Authors Section Ends Here */
+
+
+
+/* Footer Section Starts Here */
+
+.topFooter {
+    background-color: rgb(246, 246, 246);
+    padding: 50px 120px 50px 147px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.topFooter .newsLetter{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topFooter .newsLetter .newsHeader{
+    width: 400px;
+}
+
+.topFooter .newsLetter .newsHeader h3{
+    font-size: 22px;
+}
+
+.topFooter .newsLetter .newsHeader p{
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+}
+
+.topFooter .newsLetter .newsInputs .emailInput{
+    border: 1px solid rgb(217, 217, 217);
+    padding: 13px 100px 13px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+
+.botFooter{
+    margin-left: 123px;
+    width: 1348px;
+    padding: 20px;
+}
+
+
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.bottomFooter .footerList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomFooter .footerList p{
+    margin-left: 5px;
+    color: rgb(129, 129, 129);
+}
+.bottomFooter .rights{
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bottomFooter .footerIcons{
+    display: flex;
+    align-items: center;
+}
+
+.bottomFooter .footerIcons p{
+    color: rgb(132, 132, 132);
+}
+
+.bottomFooter .footerIcons a{
+    color: rgb(132, 132, 132);
+    margin-left: 20px;
+}
+
+.footerIcons .moveTop{
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px 17px 10px 17px;
+    margin-left: 40px;
+}
+
+.footerIcons .moveTop:hover{
+    color: black;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(196, 195, 195);
+}
+
+
+/* For smooth scrolling from footer to header  */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Footer Section Ends Here */
